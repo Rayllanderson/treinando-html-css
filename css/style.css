@@ -3,26 +3,22 @@ body {
 }
 
 
-/* atacando ID usa # */
-
-#div1>h1 {
-    color: red;
-}
+/*aplicando style na h1 filha*/
 
 #div2>h1 {
     color: cyan;
 }
 
 
-/* atacando class usa . */
+/*aplicando style em um h1 específico*/
 
-.div1>h1 {
-    color: rgb(19, 255, 164);
-}
-
-.div2>h1 {
-    color: cyan;
+#div3>#div4>h1 {
+    color: rgb(60, 255, 76);
 }
 
 
-/*difereça do ID pra class? ID só se usa uma vez, não se repete. Já class não.*/
+/*aplicando style em todos h1 da div, não importando se é div filha, neta, whatever*/
+
+#div1 h1 {
+    color: rgb(255, 0, 0);
+}

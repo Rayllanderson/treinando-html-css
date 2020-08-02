@@ -1,24 +1,25 @@
-body {
-    background: black;
+/*pegando TODOS os elementos do arquivo, T O D O S */
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-
-/*aplicando style na h1 filha*/
-
-#div2>h1 {
-    color: cyan;
+div.menu {
+    width: 900px;
+    margin: 30px auto;
+    text-align: center;
 }
 
-
-/*aplicando style em um h1 específico*/
-
-#div3>#div4>h1 {
-    color: rgb(60, 255, 76);
+div.menu>a {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 0 10px;
 }
 
-
-/*aplicando style em todos h1 da div, não importando se é div filha, neta, whatever*/
-
-#div1 h1 {
-    color: rgb(255, 0, 0);
+div.img>img {
+    width: 1350px
 }

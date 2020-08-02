@@ -1,0 +1,28 @@
+body {
+    background: black;
+}
+
+
+/* atacando ID usa # */
+
+#div1>h1 {
+    color: red;
+}
+
+#div2>h1 {
+    color: cyan;
+}
+
+
+/* atacando class usa . */
+
+.div1>h1 {
+    color: rgb(19, 255, 164);
+}
+
+.div2>h1 {
+    color: cyan;
+}
+
+
+/*difereça do ID pra class? ID só se usa uma vez, não se repete. Já class não.*/

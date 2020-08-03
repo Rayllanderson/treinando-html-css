@@ -1,0 +1,38 @@
+* {
+    background-color:rgb(15, 17, 18);
+    margin: 0;
+    padding: 0;
+}
+
+div.artigo {
+    width: 1280px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.artigo h1 {
+    color: red;
+    font-size: 27px;
+    font-family: tahoma, Times, serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.artigo p {
+    color: rgb(212, 212, 212);
+    font-size: 15px;
+    font-family: tahoma;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.btVoltar a {
+    color: white;
+    background-color: rgb(134, 0, 0);
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 19px;
+    margin: 5px;
+    padding: 4px;
+    display:inline-block;
+}

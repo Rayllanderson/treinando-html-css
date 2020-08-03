@@ -1,0 +1,29 @@
+
+
+#a1>a {    
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.swapTheme {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    background-image: url('https://static.thenounproject.com/png/2853798-200.png');
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-left: 1280px;
+    color: white
+}

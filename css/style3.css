@@ -8,18 +8,16 @@ html, body{
     height: 100%;
 }
 
-ul.lista, .lista2{
-    list-style-position: inside;
-    list-style-type: disc;
-    margin-left: 20px;
-    margin-top: 10px;
-}
 
-.lista li, .lista2 li{
-    font-size: 18px;
-    color : #4b4b4b;
+.header{
+    width: 100%;
+    min-width: 1280px;
+    height: 200px;
+    background: rgb(92, 92, 92);
 }
-
-.lista .item3, .lista2 .item3{ 
-    font-weight: bold;
+.article{
+    margin: 0 auto;
+    width: 1280px; 
+    height: 300px; 
+    background: red;
 }

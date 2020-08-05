@@ -3,6 +3,8 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: rgb(15, 17, 18);
+    background-size: 100%;
 }
 
 div.menu {
@@ -11,15 +13,23 @@ div.menu {
     text-align: center;
 }
 
+
 div.menu>a {
+    
+    background-image: none;
     text-decoration: none;
-    color: black;
+    color: rgb(219, 219, 219);
     padding: 4px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(218, 218, 218);
     font-size: 20px;
     margin: 0 10px;
 }
 
 div.img>img {
-    width: 1350px
+    background-image: none;
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }

@@ -22,6 +22,7 @@
 button {
     background-image: url('https://static.thenounproject.com/png/2853798-200.png');
     background-size: 30px;
+    background-color: white;
     width: 30px;
     height: 30px;
     border: 0;
